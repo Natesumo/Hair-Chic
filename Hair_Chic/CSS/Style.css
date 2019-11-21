@@ -1,0 +1,44 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap');
+body{
+    background-color:black;
+    color:white;
+    font-family: 'Ibarra Real Nova', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+    font-size:16px;
+    font-weight:bold;
+}
+/* Navigation Bar */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    min-height: 10em;
+    width: 100%;
+    border-bottom: solid 6px #A41300;
+}
+
+.logo{
+    margin-top: 15px;
+}
+
+.navbar{
+    margin-left: 0px;
+    padding: 65px;
+}
+
+.navbar-item{
+    font-size: 28px;
+    padding: 5px;
+    color: #A41300;
+    text-decoration: underline;
+}
+
+.navbar-item:hover{
+    color: black;
+    text-decoration-style: dashed;
+}
+
+h1{
+    text-align: center;
+    padding: 12px;
+}
