@@ -1,5 +1,6 @@
 /* Global */
 @import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap');
+
 body{
     background-color:#F2C2D8;
     color:#2A2F8C;
@@ -7,8 +8,11 @@ body{
     font-size:16px;
     font-weight:bold;
     height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 /* Navigation Bar */
+
 header{
     display: flex;
     justify-content: space-between;
@@ -22,21 +26,32 @@ header{
 }
 
 .logo{
-    margin-top: 15px;
-    margin-right: 0px;
+    display: flex;
+    float: left;
+    transform: scale(20%);
+
 }
 
 .navbar{
-    margin-left: 0px;
-    padding: 65px;
+    width: 100% auto;
+    display: flex;
+    margin: 0px auto;
+    padding: 50px;
+    padding-left: 0;
+    margin-left: 12px;
+    padding-right: 0;
 }
 
 .navbar-item{
+    display: flex;
+    align-content: flex-start;
     font-size: 28px;
     padding: 5px;
     padding-right: 25px;
     color: #2A2F8C;
     text-decoration: underline;
+    width: 65% auto;
+    
 }
 
 .navbar-item:hover{
@@ -46,9 +61,13 @@ header{
 
 /* Footer*/
 footer{
-    width: 105%;
+    width: 100% auto;
     background-color: #8872A6;
     padding: 65px;
+    padding-right: 0 auto;
+    margin: 0 auto;
+    padding-bottom: 0 auto;
+    margin-bottom: 0 auto;
 }
 
 /* Homepage */
@@ -63,6 +82,7 @@ h1{
     padding: 45px;
     display: flex;
     justify-content: space-between;
+    min-height: 555px;
 }
 
 .container h2{
@@ -72,7 +92,7 @@ h1{
 .block{
     background-color: #6258A6;
     border: #2A2F8C  solid 3px;
-    width: 30%;
+    max-width: 30%;
     border-radius: 46px;
 }
 
@@ -80,6 +100,43 @@ p{
     padding: 12px;
     color: #020873;
 }
+
+/*Services Grid using CSS grid*/
+
+.services{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    font-size: 40px;
+    text-decoration: underline;
+    border-top: solid 2px #020873;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 45% 25% 30%;
+    grid-auto-rows: minmax(100px, 100%);
+    grid-gap: 1em;
+    margin: 2em;
+    padding-right: 1em;
+}
+
+.grid-box{
+    background-color: #8872A6;
+    border: solid 2px #2A2F8C;
+    border-radius: 1em;
+    min-height: 15em;
+}
+
+.grid-box:nth-child(odd){
+    background-color:#F2C2D8;
+}
+.grid-box{
+    font-size: 18px;
+}
+
+
+
 
 /*Contact Page*/
 
