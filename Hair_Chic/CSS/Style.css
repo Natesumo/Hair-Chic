@@ -186,3 +186,62 @@ input, textarea, select{
 #submitButton:hover{
     background: #020873;
 }
+
+/* Staff Page*/
+
+.team-section{
+    text-align: center;
+}
+
+.inner-width{
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.team-section h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    border-bottom: 4px solid;
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.emp{
+    float: left;
+    width: calc(100% / 3);
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.emp img{
+    width: 120px;
+    height: 120px;
+}
+
+.emp div{
+    padding: 15px;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width:800px) {
+    .emp{
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .block{
+        min-width: 255px;
+        padding: 1em;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+}
