@@ -236,7 +236,7 @@ input, textarea, select{
         flex-direction: column;
     }
     .block{
-        min-width: 255px;
+        min-width: 350px;
         padding: 1em;
         justify-content: center;
         margin-bottom: 1em;
