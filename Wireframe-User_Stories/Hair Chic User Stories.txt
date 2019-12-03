@@ -1,0 +1,5 @@
+1.) As a potential customer, I want to get an idea of the services offered and why I should choose this company.
+
+2.) As a mobile user, I want the site to be legible, and just as feature rich as it would be on a desktop.
+
+3.) As a male, I want to make sure that this salon can perform male hair styles as well.

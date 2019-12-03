@@ -70,6 +70,10 @@ footer{
     margin-bottom: 0 auto;
 }
 
+.footer-text{
+    text-align: center;
+}
+
 /* Homepage */
 h1{
     text-align: center;
