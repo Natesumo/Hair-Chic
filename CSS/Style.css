@@ -68,6 +68,7 @@ footer{
     margin: 0 auto;
     padding-bottom: 0 auto;
     margin-bottom: 0 auto;
+    padding-top: 75px;
 }
 
 .footer-text{
@@ -98,6 +99,7 @@ h1{
     border: #2A2F8C  solid 3px;
     max-width: 30%;
     border-radius: 46px;
+    margin-bottom: 125px;
 }
 
 p{
